@@ -1,0 +1,189 @@
+/*
+css for responsive agency html reponsive
+*
+*
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&family=Roboto:wght@300;400;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-col,
+.btn {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.main-header {
+    height: 70px;
+
+}
+.colored-text{
+    color:#ff6058;
+    font-weight: 800;
+}
+/*
+Header
+*/
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding-left: 30px;
+    font-weight: 600;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active,
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #ff6058;
+}
+
+.logo {
+    padding-right: 10px;
+}
+
+#hero-section {
+    height: 100vh;
+    max-height: 950px;
+    background-image: url(img/main-bg.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#hero-section:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 20;
+    color: #ffff;
+    max-width: 960px;
+}
+
+.hero-content h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+    margin-top: 60px;
+}
+
+.hero-content h1 {
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 47px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 74px;
+}
+
+.hero-buttons .btn, .learn-more-btn {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 48px;
+    margin-bottom: 0 10px;
+}
+
+/*
+* Stats Section
+*/
+.stats-section {
+    height: 200px;
+}
+
+.stat-col span {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+}
+.stat-col span span{
+    display: inline-block;
+}
+.stat-col{
+    height: 100%;
+    position: relative;
+}
+.stat-col span.number {
+    font-size: 60px;
+    font-weight: 800;
+    color: #ff6058;
+}
+
+.stat-col span.label {
+    font-size: 36px;
+    font-weight: 600;
+}
+/*
+* About Section
+*/
+.about-section{
+    padding: 100px 0;
+}
+.about-images div:nth-child(3){
+    margin-top: -3em;
+}
+.about-images div{
+    padding:10px;
+
+}
+.about-images div img{
+    max-width: 100%;
+}
+.about-text{
+    padding: 30px 0 0 40px;
+}
+.about-text .col-1 span{
+    color:#73a4aa;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 0.8;
+}
+.home-section h3{
+ font-size: 18px;
+ font-weight: 600;
+ letter-spacing: 3px;
+}
+.home-section h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+.home-section h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+.home-section p{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
